@@ -18,7 +18,8 @@ In reality, investors are not limited to long positions; they can also take shor
 **Comparison between 2 cases**  
 Finally, we will compares the PnL of different portfolios in the 2 cases: ![QQ Plot](https://drive.google.com/uc?id=1fxX-n8HIH3PYofZpyfio600ogVLHwSbH)
 It's clear that when investors are allowed to both long and short stocks, the two optimal portfolios demonstrate better performance compared to when only long positions are permitted.  
-****
+
+**Drawback**
 The main drawback of Modern Portfolio Theory (MPT) is its assumption that log returns follow a normal distribution, which is rarely observed in real-world markets. When log returns deviate from normality, the resulting "optimal" portfolios may not accurately represent reality, potentially leading to suboptimal investment decisions and an imprecise efficient frontier.
 
 
