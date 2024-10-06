@@ -10,6 +10,7 @@ I also performed a normality test in my code, and the results consistently indic
 
 **Modern Portfolio Theory**  
 To apply Modern Portfolio Theory (MPT), I first need to calculate the expected returns and variance of my portfolio for various weight combinations. The weights are generated using a uniform distribution, ensuring that the sum of all weights equals one. Additionally, I assume investors can only take long positions, meaning the weights are restricted to the range [0, 1]. By adjusting these weight combinations, the portfolio will exhibit different expected returns and variances, reflecting the trade-off between risk and return.  
+
 Next, we'll determine the two optimal portfolios: one with the maximum Sharpe ratio and the other with the minimum volatility, while also constructing the Efficient Frontier. Using the SciPy library, we can optimize the portfolios with constraints ensuring the weights sum to 1 and are bounded between 0 and 1 (long-only positions). For the Efficient Frontier, I set a target returns range between 20% and 60%, and for each target return, I calculate the portfolio with the minimum volatility. The resulting Efficient Frontier is displayed below:  ![QQ Plot](https://drive.google.com/uc?id=1T3ivmV1uVl3HR3xBk2p24EBt-M0LcGc3)
 
 **What if investors are allowed to take short positions on stocks?**  
