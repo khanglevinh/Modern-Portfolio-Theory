@@ -1,1 +1,3 @@
-# Modern-Portfolio-Theory
+# Modern-Portfolio-Theory  
+**1. Introduction**  
+In this project, I'm going to implement the Modern Portfolio Theory (MPT), or mean - variance analysis, with a portfolio consists of the stocks from the 5 largest companies by market cap: 'AAPL', 'MSFT', 'NVDA', 'GOOG','AMZN'. Basically, the MPT theory is a mathematical framework for constructing an investment portfolio that maximizes expected return for a given level of risk or minimizes risk for a given level of expected return. The details of MPT theory can be seen in this: [Link]([https://link-can-chèn](https://en.wikipedia.org/wiki/Modern_portfolio_theory#:~:text=Modern%20portfolio%20theory%20(MPT),%20or%20mean-variance%20analysis,%20is))
